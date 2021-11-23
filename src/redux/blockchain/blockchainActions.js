@@ -4,6 +4,8 @@ import DragonToken from "../../contracts/DragonToken.json";
 // log
 import { fetchData } from "../data/dataActions";
 
+// Very similar to the DataActions, It also has the same work to add actions 
+
 const connectRequest = () => {
   return {
     type: "CONNECTION_REQUEST",
@@ -31,6 +33,7 @@ const updateAccountRequest = (payload) => {
   };
 };
 
+// This function is supposed to connect the browser to the local blockchain! and update accounts whenever they are changed!
 export const connect = () => {
   return async (dispatch) => {
     dispatch(connectRequest());
