@@ -1,4 +1,4 @@
-
+// This Page is supposed to be the fight page where all the logic of the fighting is supposed to go!
 import { Link } from 'react-router-dom'
 
 import * as s from "../styles/globalStyles"
@@ -20,14 +20,14 @@ export default function FightPage(props) {
     const fightMe = (account, _defenderId) => {
 
         console.log(Number(data.name), _defenderId, data.name, id);
-        // blockchain.dragonToken.methods.fight(_attackerId, _defenderId).send({ from: account }).once(
-        //     "error", (error) => {
-        //         console.log(error);
-        //     }
-        // ).then((receipt) => {
-        //     console.log(receipt);
-        //     dispatch(fetchData(account));
-        // });
+        blockchain.dragonToken.methods.fight(_attackerId, _defenderId).send({ from: account }).once(
+            "error", (error) => {
+                console.log(error);
+            }
+        ).then((receipt) => {
+            console.log(receipt);
+            dispatch(fetchData(account));
+        });
     }
 
     useEffect(() => {
