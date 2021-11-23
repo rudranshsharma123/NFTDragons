@@ -1,6 +1,6 @@
 // log
 import store from "../store";
-
+//This fucntion is supposed to call the action Check Data Request to see
 const fetchDataRequest = () => {
   return {
     type: "CHECK_DATA_REQUEST",
