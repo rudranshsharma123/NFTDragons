@@ -1,18 +1,19 @@
 // log
 import store from "../store";
-//This fucntion is supposed to call the action Check Data Request to see
+//This fucntion is supposed to call the action Check Data Request to set the initial state and turn loading to true!!
 const fetchDataRequest = () => {
   return {
     type: "CHECK_DATA_REQUEST",
   };
 };
-
+// This fucntion is supposed to be called with and will update the values in the state!
 const fetchDataSuccess = (payload) => {
   return {
     type: "CHECK_DATA_SUCCESS",
     payload: payload,
   };
 };
+// This function was supposed to change the Name vairable in the state but it was not working like intended
 const addID = (payload) => {
   return {
     type: "ADD_DATA",
@@ -20,7 +21,7 @@ const addID = (payload) => {
   };
 };
 
-
+// This is for the case when the data is not getting fetched!
 const fetchDataFailed = (payload) => {
   return {
     type: "CHECK_DATA_FAILED",
