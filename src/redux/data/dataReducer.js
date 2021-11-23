@@ -1,3 +1,5 @@
+// A simple reducer function supposed to add things to the state
+
 const initialState = {
   loading: false,
   allDragons: [],
