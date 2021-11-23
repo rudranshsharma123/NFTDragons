@@ -1,3 +1,6 @@
+// The file for importing all the NFT art and exporting it to be used in the renderer, with ease
+
+
 // parts
 import b_1 from "../assets/images/parts/body/bd_1.png";
 import b_2 from "../assets/images/parts/body/bd_2.png";
