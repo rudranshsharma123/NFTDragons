@@ -15,6 +15,8 @@ export default function MintPage() {
     const blockchain = useSelector((state) => state.blockchain);
     const data = useSelector((state) => state.data);
     // console.log(data);
+    // This is the fighting function which goes to the blockchain to actually fight!
+    
     const fightMe = (account, _attackerId, _defenderId) => {
 
         console.log(Number(data.name), _attackerId, _defenderId);
@@ -27,6 +29,8 @@ export default function MintPage() {
             dispatch(fetchData(account));
         });
     }
+        // This is the Minting function which goes to the blockchain to actually mint NFTs!
+
     const mintNFT = (account, _name) => {
         blockchain.dragonToken.methods.createRandomDragon(_name).send({ from: account, value: Web3.utils.toWei('0.01', 'ether') }).once(
             "error", (error) => {
