@@ -5,6 +5,7 @@ import _r1 from "../assets/images/rarity/_rarity_1.png";
 import _r2 from "../assets/images/rarity/_rarity_2.png";
 import _r3 from "../assets/images/rarity/_rarity_3 (2).png";
 import * as s from "../styles/globalStyles"
+// This file is used to render all the NFTs on the page, this function does all the heavy lifting
 
 const DragonNFTGen = ({ dragon = null, size = 200, style }) => {
   if (!dragon) {
@@ -57,7 +58,7 @@ const DragonNFTGen = ({ dragon = null, size = 200, style }) => {
 
 
 
-      =
+
       <img alt={"rarity"} src={rarity} style={dragonStyle} />
     </s.Container>
   );
