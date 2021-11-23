@@ -27,7 +27,7 @@ const fetchDataFailed = (payload) => {
     payload: payload,
   };
 };
-
+// This function was supposed to add the "Name" feild to the state but it was not working as intended during production and testing so, I had to abandon the multi-page appraoch
 export const addName = (name) => {
   return async (dispatch) => {
     console.log(name);
