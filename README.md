@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Link to how it work -> https://www.youtube.com/watch?v=dvmPZ5_WKH8&t=20s
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+I was heavily inspired by the project known as CryptoKitties which also has a very similar concept minus the whole fighting part. I wanted to create my own NFT game and learn the core concepts surrounding the whole ERC721s and in the process learn a lot about React and Redux!
 
-## Available Scripts
+Not to mention how fun it is to have your own collection of NFTs right at your fingertips. (Did I mention you get to own your own DRAGONS!!)
 
-In the project directory, you can run:
+## What it does
+It is a NFT based game which uses the power of ERC721 token to allow all the players with a valid wallet to play the game. Mint their own NFTs and do a number of things using them!
 
-### `yarn start`
+#Project Work Checklist 
+- Created the Frontend
+- Written the Smart contract with all the functions
+- Was able to implement the whole fighting mechanics 
+- I was unable to add the option to trade/auction your 
+NFTs
+- I was unable to create a good looking UI with great UX
+- Added cockroach DB support
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## How I built it
+I built it using Solidity, React, Trufle and Brownie and Cockroach DB
 
-### `yarn test`
+## Challenges I ran into
+It was very challenging especially react with its routing and state management was especially difficult to master and get everything to work. Solidity was charm when compared with the nightmare of react
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of
+I am very proud of the fact that most of the things were done especially considering the amount of time I had for work .
+## What I  learned
+I learned a lot about React, Redux, Solidty and how to make NFTs (ERC721s)
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for NFTDragons
+Completing all the things I set out to do but was not able to do given the time
